@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+h1,
+h2 {
+    font-family: 'Arvo', serif;
+
+}
+
+header a {
+    width: 20%;
+}
+
+.avatar {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.role {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.role h1 {
+    margin: 10px 0 0 0;
+    color: #414249;
+}
+
+.role h2 {
+    margin: 20px 0 0 0;
+    color: #95979A;
+}
+
+
