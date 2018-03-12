@@ -43,12 +43,12 @@ header a {
     text-align: right;
 }
 
-.role h1 {
+h1 {
     margin: 10px 0 0 0;
     color: #414249;
 }
 
-.role h2 {
+h2 {
     margin: 20px 0 10px 0;
     color: #95979A;
 }
@@ -60,7 +60,7 @@ header a {
     background-size: cover;
 }
 
-.featured h3 {
+.featured-header {
     margin-left: 0.5em;
     font-size: 1.5em;
     color: #95979A;
@@ -96,14 +96,14 @@ header a {
     flex-wrap: wrap;
 }
 
-.project-description h4 {
+.project-description-header {
     font-size: 1.2em;
     margin: 0 0 0.8em 0;
     color: #414249;
     width: 100%;
 }
 
-.project-description .icon {
+.icon {
     font-size: 1.5em;
     /* margin: 0 0.01em; */
     width: 20%;
@@ -145,7 +145,7 @@ footer {
         width: 100%;
         margin-bottom: 1em;
     }
-    .featured h3 {
+    .featured-header {
         width: 100%;
     }
     .project {
@@ -164,7 +164,7 @@ footer {
     .avatar {
         margin: 15px 0 0;
     }
-    .featured h3 {
+    .featured-header {
         margin: 20px;
     }
     .role {
