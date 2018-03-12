@@ -1,3 +1,4 @@
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -50,5 +51,24 @@ header a {
     color: #95979A;
 }
 
+.project {
+    border: 1px solid #B3CAE0;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
 
+.project-description {
+    height: 40%;
+    width: 80%;
+    background-color: rgba(208, 228, 239, 0.9);
+    position: absolute;
+    top: 30%;
+    left: 10%;
+
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(149,151,154,0.9);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(149,151,154,0.9);
+    box-shadow: 5px 5px 5px 0px rgba(149,151,154,0.9);
+
+}
 
