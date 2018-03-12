@@ -14,6 +14,19 @@ h4 {
 
 }
 
+a {
+    text-decoration: none;
+    color: #414249;
+}
+
+a:visited {
+    color: #EFEFF1;
+}
+
+a:hover {
+    color: #95979A;
+}
+
 header a {
     width: 20%;
 }
@@ -74,6 +87,12 @@ header a {
 
 .project-description h4 {
     color: #414249;
+}
+
+.project-description .icon {
+    font-size: 1.5em;
+    padding: 0 10px 0 10px;
+    margin: 0 10px 0 10px;
 }
 
 
