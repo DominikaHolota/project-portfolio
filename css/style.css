@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Arvo', serif;
 }
@@ -8,7 +12,6 @@ header {
     justify-content: space-between;
     align-content: center;
 }
-
 
 a {
     text-decoration: none;
@@ -31,7 +34,7 @@ header a {
     width: 100%;
     height: auto;
     border-radius: 50%;
-    margin-top: 7px;
+    margin: 1em;
 }
 
 .role {
@@ -58,6 +61,7 @@ header a {
 }
 
 .featured h3 {
+    margin-left: 0.5em;
     font-size: 1.5em;
     color: #95979A;
 }
@@ -78,25 +82,31 @@ header a {
 .project-description {
     height: 40%;
     width: 80%;
-    background-color: rgba(208, 228, 239);
+    background-color: #d0e4ef;
     position: absolute;
     top: 30%;
     left: 10%;
-    -webkit-box-shadow: 5px 5px 5px 0px rgba(149,151,154,0.5);
-    -moz-box-shadow: 5px 5px 5px 0px rgba(149,151,154,0.5);
-    box-shadow: 5px 5px 5px 0px rgba(149,151,154,0.5);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(149, 151, 154, 0.5);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(149, 151, 154, 0.5);
+    box-shadow: 5px 5px 5px 0px rgba(149, 151, 154, 0.5);
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .project-description h4 {
-    margin-top: 30px;
+    font-size: 1.2em;
+    margin: 0 0 0.8em 0;
     color: #414249;
+    width: 100%;
 }
 
 .project-description .icon {
     font-size: 1.5em;
-    padding: 0 10px 0 10px;
-    margin: 0 10px 0 10px;
+    /* margin: 0 0.01em; */
+    width: 20%;
 }
 
 footer p {
@@ -112,23 +122,67 @@ footer a {
 
 footer {
     background: #D0E4EF;
-
 }
 
 @media screen and (max-width: 425px) {
-    .avatar {
-        display: none;
+    h1 {
+        font-size: 1.5em;
     }
-
-    header {
-    margin-left: 30px;
+    h2 {
+        font-size: 1em;
     }
-
-    .project-description h4 {
-        margin-top: 15px;
-    }
-
 }
 
+@media screen and (min-width: 601px) {
+    .avatar {
+        width: 100px;
+    }
+    .featured {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .featured h3 {
+        width: 100%;
+    }
+    .project {
+        width: 48%;
+        margin: 10px 0;
+    }
+    .project:last-of-type {
+        width: 100%;
+    }
+    .project:last-of-type .icon {
+        margin: 0 -25px;
+    }
+}
 
+@media screen and (min-width: 801px) {
+    .avatar {
+        margin: 15px 0 0;
+    }
+    .featured h3 {
+        margin: 20px;
+    }
+    .role {
+        margin: 10px 50px;
+    }
+    .project,
+    .project:last-of-type {
+        width: 30%;
+    }
+    .project:last-of-type .icon {
+        margin: inherit;
+    }
+}
 
+@media screen and (min-width: 1200px) {
+    .featured,
+    header {
+        width: 1200px;
+        margin: 1em auto;
+    }
+}
