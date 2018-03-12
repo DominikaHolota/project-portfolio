@@ -33,8 +33,15 @@ header a {
 }
 
 .role h2 {
-    margin: 20px 0 0 0;
+    margin: 20px 0 10px 0;
     color: #95979A;
+}
+
+.banner {
+    height: 85vh;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
