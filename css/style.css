@@ -1,3 +1,6 @@
+body {
+    font-family: 'Arvo', serif;
+}
 
 header {
     display: flex;
@@ -6,13 +9,6 @@ header {
     align-content: center;
 }
 
-h1,
-h2,
-h3,
-h4 {
-    font-family: 'Arvo', serif;
-
-}
 
 a {
     text-decoration: none;
@@ -35,6 +31,7 @@ header a {
     width: 100%;
     height: auto;
     border-radius: 50%;
+    margin-top: 7px;
 }
 
 .role {
@@ -72,20 +69,27 @@ header a {
     position: relative;
 }
 
+.project img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
 .project-description {
     height: 40%;
     width: 80%;
-    background-color: rgba(208, 228, 239, 0.9);
+    background-color: rgba(208, 228, 239);
     position: absolute;
     top: 30%;
     left: 10%;
-    -webkit-box-shadow: 5px 5px 5px 0px rgba(149,151,154,0.9);
-    -moz-box-shadow: 5px 5px 5px 0px rgba(149,151,154,0.9);
-    box-shadow: 5px 5px 5px 0px rgba(149,151,154,0.9);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(149,151,154,0.5);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(149,151,154,0.5);
+    box-shadow: 5px 5px 5px 0px rgba(149,151,154,0.5);
     text-align: center;
 }
 
 .project-description h4 {
+    margin-top: 30px;
     color: #414249;
 }
 
@@ -93,6 +97,22 @@ header a {
     font-size: 1.5em;
     padding: 0 10px 0 10px;
     margin: 0 10px 0 10px;
+}
+
+footer p {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+footer a {
+    font-weight: bold;
+}
+
+footer {
+    background: #D0E4EF;
+
 }
 
 
