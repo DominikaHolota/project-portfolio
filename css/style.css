@@ -69,12 +69,12 @@ header a {
     -webkit-box-shadow: 5px 5px 5px 0px rgba(149,151,154,0.9);
     -moz-box-shadow: 5px 5px 5px 0px rgba(149,151,154,0.9);
     box-shadow: 5px 5px 5px 0px rgba(149,151,154,0.9);
-
+    text-align: center;
 }
 
 .project-description h4 {
     color: #414249;
-    text-align: center;
-
 }
+
+
 
